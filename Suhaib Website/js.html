@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js.css">
+</head>
+
+<body>
+    <img class="img1" src="pic1.png" id="slider">
+    <div class="controls">
+        <button onclick="left()">&lt;</button>
+        <button onclick="right()">&gt;</buttomn>
+    </div>
+
+    <script>
+
+
+        images = ['pic1.png', 'pic2.png', 'pic3.png'];
+        i = 0;
+        function left() {
+            i = i - 1;
+            if (i < 0) {
+                i = 2;
+            }
+            document.getElementById('slider').src = images[i];
+        }
+
+        function right() {
+            i = i + 1
+            if (i > 2) {
+                i = 0;
+            }
+            document.getElementById('slider').src = images[i];
+
+        }
+    </script>
+</body>
+
+</html>

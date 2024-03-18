@@ -1,0 +1,9 @@
+.controls{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1{
+    width: 400px;
+    height: 200px;
+}

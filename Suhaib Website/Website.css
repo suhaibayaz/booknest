@@ -1,0 +1,184 @@
+*{
+    text-decoration: none;
+}
+
+#navbar{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 60px;
+    align-content: center;
+    font-size: 1.2rem;
+}
+#navbar :hover{
+    background-color: rgb(212, 193, 18);
+
+}
+
+#books{
+    text-align: center;
+}
+
+#author{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(212, 193, 18);
+}
+
+#logo{
+    color: rgb(212, 193, 18);
+    font-size: 30px;
+}
+
+a{
+    margin: 100px;
+    color: white;
+    
+}
+
+#box1{
+    height: 100px;
+display: inline-block;
+margin-right: 20px;
+}
+
+#box2{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#box3{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#box4{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#box5{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#box6{
+    display: inline-block;
+    
+}
+h1{
+    padding-top: 25px;
+    text-align: center;
+    
+}
+
+h3{
+color:rgb(6, 17, 173);
+text-align: center;
+}
+h2{
+    color:rgb(6, 17, 173); ;
+}
+#text1{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#text2{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#text3{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+#text4{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#text5{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+#text6{
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+    height: 40px;
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+img{
+    height: 300px;
+    width: 180px;
+}
+
+#reviews{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+[class*="col-"] {
+    width: 100%;
+  }
+
+
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+#form{
+    line-height: 1;
+}
+
+#click1{
+    color: black;
+    background-color: rgb(255, 255, 150)
+}

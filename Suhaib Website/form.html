@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+   <form onsubmit="submit()" autocomplete="on" method="post" >
+    <h1>form</h1>
+        <label for="fname">First name:</label>
+        <input type="text" id="firstname" name="fname" value="Entre your first name"><br><br>
+
+        <label for="lname">last name:</label>
+        <input type="text" id="lastname" name="lname" value="Entre your last name"><br><br>
+
+        <label for="Email">Email:</label>
+        <input type="text" id="Email" name="Email" value="It should contain @"><br><br>
+
+        <label for="mobile">Mobile:</label>
+        <input type="text" id="mobile" name="mobile" value="Only 10 digits are allowed"><br>
+
+        <label for="gender">gender</label><br>
+
+        <input type="radio" id="gender" name="gender" value="male">
+        <label for="text">male</label><br>
+
+        <input type="radio" id="gender" name="gender" value="female">
+        <label for="text">female</label><br>
+
+        <input type="radio" id="gender" name="gender" value="other">
+        <label for="text">other</label><br><BR>
+
+      
+
+
+
+        <label for="date of birth">Date of Birth:</label><br>
+    <input type="date" id="birthday" name="birthday"><br><br>
+
+    <label for="address" >adress</label>
+    <input type="text" id="adress" name="address"><br><br>
+
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city"><br><br>
+
+    <label for="area pin">Area pin:</label>
+    <input type="text" id="area pin" name="area pin"><br><br>
+
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state"><br><br>
+
+    <label for="Specialization">Specialization:</label><br>
+    
+    <input type="checkbox" id="Specialization" name="specialization" value="computer sceince">
+ <label for="Computer science">Computer science</label><br>
+   
+  <input type="checkbox" id="Specialization2" name="specialization" value="information technology">
+ <label for="Information Technology">Information Technology</label><br>
+   
+   <input type="checkbox" id="Specialization3" name="specialization" value="computer architecture">
+ <label for="computer architecture">Computer Architecture</label><br>
+   
+   <input type="checkbox" id="Specialization4" name="specialization" value="telecommunication">
+ <label for="telecommunication">Telecommunication</label><br><br>
+
+
+    <label for="password">Password:</label>
+    <input type="passward" id="Password" name="password"><br>
+
+    <br><br>
+    <input onclick="submit()" type="submit" value="Register" required> 
+
+    </form>
+    </table>
+    <script>
+      function submit()
+      {
+        alert('begin');
+        var name=document.getElementById("fname").value;
+        var name=document.getElementById("lname").value;
+        var name=document.getElementById("email").value;
+        var name=document.getElementById("mobile").value;
+        var name=document.getElementById("gender").value;
+
+        alert(fname + "," + lname+ "," + email + "," + mobile + "," + gender);
+      }
+    </script>
+</body>
+</html>
