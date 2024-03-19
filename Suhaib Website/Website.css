@@ -17,6 +17,28 @@
 
 }
 
+#navbar {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#navbar #logo {
+  color: rgb(212, 193, 18);
+  font-size: 30px;
+}
+
+#navbar input[type="text"] {
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  background-color: rgb(212, 193, 18);
+  margin: 10px 0;
+}
+
 #books{
     text-align: center;
 }
